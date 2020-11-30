@@ -1,0 +1,54 @@
+---
+title: 'Course Project: Shiny Application and Reproducible Pitch'
+author: "Maribel"
+date: "28/11/2020"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Iris
+
+Iris flower data set The Flower Iris data set or Fisher's iris data set is a multivariate data set introduced by Ronald Fisher for the final Course Project project: Shiny Application and Reproducible Pitch
+
+
+
+
+## Iris dataset sample
+
+```{r}
+library(ggplot2)
+
+head(iris)
+````
+
+
+
+## Use of the application
+
+With this application you can search the iris data set for the different species of flowers, petal size and others, you also have the option of an interactive diagram where you can see each species separately.
+
+You can also look up the values for
+
+#### Sepal.Length
+
+#### Sepal.Width
+
+#### Petal.Length
+
+#### Petal.Width
+
+
+## Github Repository:
+
+https://github.com/marycib/Shiny_Application_Reproducible_Pitch
+
+Shiny Application:
+
+https://mryb.shinyapps.io/Shiny-Application-and-Reproducible-Pitch/
+
+
